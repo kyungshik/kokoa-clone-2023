@@ -1,9 +1,22 @@
 .nav{
+    /* 스크롤을 해도 위치를 고정시키고 */
+    position: fixed;
+    /* 위치는 가장 아래쪽에 */
+    bottom:0;
+    /* 가로 배치를 동일하게 */
+    width: 100%;
     background-color: #f9f9fa;
-    padding:20px 40px;
+    padding:20px 50px;
+    /* padding으로 인해 아이콘 일부가 잘릴때(?) */
+    box-sizing: border-box;
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 
 .nav__list{
     display:flex;
     justify-content: space-between;
+}
+
+.nav__linl{
+    color:#2e363e;
 }

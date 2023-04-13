@@ -52,3 +52,8 @@ reset(전역)에 outline이 none<없다>로 해서 이쁘게 만들기. */
 input:focus{
 	outline:none;
 }
+
+a{
+	color:inherit;
+	text-decoration: none;
+}
