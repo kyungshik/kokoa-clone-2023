@@ -46,3 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* 클릭했을 때 전체 파란색 상자가 보이면서 이쁘지 않다.
+reset(전역)에 outline이 none<없다>로 해서 이쁘게 만들기. */
+input:focus{
+	outline:none;
+}
